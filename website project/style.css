@@ -31,3 +31,10 @@ header
     font-family: "Roboto", sans-serif;
     font-size: 22px;
 }
+
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
