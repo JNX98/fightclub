@@ -45,7 +45,18 @@ body
     font-size:16px;
 }
 
-
+.container{ /* kaikkien muiden kuin etusivun sisältö*/
+    text-align:left;
+    max-width:850px;
+    color:rgb(20, 20, 20);
+    
+}
+.container2{ /* historia-sivun erikoisuus*/
+    text-align:right;
+    max-width:850px;
+    color:rgb(20, 20, 20);
+    
+}
 
 .row
 {
@@ -72,6 +83,19 @@ h1
     text-align:justify;
     margin-top: 275px;
     padding-bottom:20px;
+}
+
+h2{ /*kaikkien muiden kuin etusivun otsikko*/
+    font-size:46px;
+    color:rgb(20, 20, 20);
+    margin-top:50px;
+    padding-bottom:15px;
+}
+
+h3{ /*väliotsikot*/
+    font-size:40px;
+    color:rgb(20, 20, 20);
+    margin-top:50px;
 }
 
 .button
