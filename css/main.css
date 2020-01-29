@@ -95,6 +95,15 @@ h3{ /*väliotsikot*/
     margin-top:50px;
 }
 
+.otsikko
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+/*Specific setup for staff.html's h2, 29.1.2020 -Joona*/
 .button
 {
     margin-top: 30px;
@@ -132,12 +141,25 @@ background-color: darkorange;
 transition: all 0.2s ease-in;
 }
 
-.table-responsive {
+/*Various things to optimize staff.html's table, 29.1.2020 -Joona*/
+
+table-responsive {
  display: block;
  width: 100%;
  overflow-x: auto;
 -webkit-overflow-scrolling: touch;
 }
-.table-hover .table-primary:hover {
-  background-color: #9fcdff;
+.table {
+    margin: auto;
+    color: white;
+    border-spacing:  10px;
+
+}
+td th{
+    text-align: justify;
+    color: white;
+}
+.container {
+    text-align: center;
+    
 }
