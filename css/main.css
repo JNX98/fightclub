@@ -70,6 +70,20 @@ body
 	text-align: justify;
 }
 
+.container{ /* kaikkien muiden kuin etusivun sisältö*/
+    text-align:left;
+    max-width:850px;
+    color:rgb(20, 20, 20); /*vaihdetaan valkoiseksi kun tausta käytössä*/
+    margin-bottom:50px;
+    
+}
+.container2{ /* historia-sivun erikoisuus*/
+    text-align:right;
+    max-width:850px;
+    color:rgb(20, 20, 20);
+    
+}
+
 h1
 {
     color: white;
@@ -159,15 +173,4 @@ td th{
     text-align: justify;
     color: white;
 }
-.container{ /* kaikkien muiden kuin etusivun sisältö*/
-    text-align:left;
-    max-width:850px;
-    color:rgb(20, 20, 20);
-    
-}
-.container2{ /* historia-sivun erikoisuus*/
-    text-align:right;
-    max-width:850px;
-    color:rgb(20, 20, 20);
-    
-}
+
