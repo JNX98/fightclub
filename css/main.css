@@ -159,7 +159,15 @@ td th{
     text-align: justify;
     color: white;
 }
-.container {
-    text-align: center;
+.container{ /* kaikkien muiden kuin etusivun sisältö*/
+    text-align:left;
+    max-width:850px;
+    color:rgb(20, 20, 20);
+    
+}
+.container2{ /* historia-sivun erikoisuus*/
+    text-align:right;
+    max-width:850px;
+    color:rgb(20, 20, 20);
     
 }
