@@ -46,23 +46,6 @@ img
   height: auto;
 }
 
-table.contactable
-{
-  font-family: "Roboto", sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-td.contactable, th.contactable
-{
-  border: 1px solid #000000;
-   background-color: #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even).contactble {
-  background-color: #dddddd;
-}
-
 
 .main-nav li a:hover
 {
