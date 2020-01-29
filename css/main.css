@@ -46,20 +46,20 @@ img
   height: auto;
 }
 
-table ["class=contactable"] 
+table.contactable
 {
   font-family: "Roboto", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-td, th ["class=contactable"]
+td.contactable, th.contactable
 {
   border: 1px solid #000000;
    background-color: #dddddd;
   text-align: left;
   padding: 8px;
 }
-tr:nth-child(even) ["class=contactable"] {
+tr:nth-child(even).contactble {
   background-color: #dddddd;
 }
 
