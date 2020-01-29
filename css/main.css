@@ -103,3 +103,13 @@ h1
 background-color: darkorange;
 transition: all 0.2s ease-in;
 }
+
+.table-responsive {
+ display: block;
+ width: 100%;
+ overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
+.table-hover .table-primary:hover {
+  background-color: #9fcdff;
+}
