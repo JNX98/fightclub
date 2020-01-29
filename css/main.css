@@ -41,7 +41,7 @@ img
   left: 0;
   top: 0;
   margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
   height: auto;
 }
 
@@ -63,7 +63,7 @@ body
 
 .hero
 {
-    position: absolute;
+    position: center;
 	max-width: 100%;
 	margin-left: auto;
 	margin-top: 0 ;
@@ -73,7 +73,6 @@ body
 h1
 {
     color: white;
-	position: relative;
     text-transform: uppercase;
     font-size: 50px;
 	/**Lowered Font size from 70 to 50 to improve scaling.
@@ -85,7 +84,7 @@ h1
 .button
 {
     margin-top: 30px;
-    margin-left: 360px;
+    margin-left: 360;
 }
 
 .btn
