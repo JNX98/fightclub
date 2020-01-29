@@ -11,6 +11,7 @@ header
     height: 100vh;
     background-size: cover;
     background-position: center;
+    
 }
 
 
@@ -45,6 +46,7 @@ img
   height: auto;
 }
 
+
 .main-nav li a:hover
 {
     border: 1px solid white;
@@ -71,17 +73,45 @@ body
 }
 
 .container{ /* kaikkien muiden kuin etusivun sisältö*/
+    
     text-align:left;
     max-width:850px;
-    color:rgb(20, 20, 20); /*vaihdetaan valkoiseksi kun tausta käytössä*/
-    margin-bottom:50px;
+    color:rgb(255, 255, 255); /*vaihdetaan valkoiseksi kun tausta käytössä*/
+    padding-left:25px;
+    padding-right: 25px;
+    padding-bottom:50px;
     
 }
+
 .container2{ /* historia-sivun erikoisuus*/
+   
     text-align:right;
     max-width:850px;
-    color:rgb(20, 20, 20);
+    color:rgb(255, 255, 255);
+    padding-bottom:50px;
+    padding-top:150px;
     
+}
+
+.container img{
+    background-color: whitesmoke;
+    max-width: 300px;
+    float:right;
+    margin-top:0px;
+    margin-left:25px;
+    margin-bottom:25px;
+    padding:10px;
+    
+}
+
+.container2 img{
+    background-color: whitesmoke;
+    max-width: 300px;
+    float:left;
+    margin-top:50px;
+    margin-right:25px;
+    margin-bottom:25px;
+    padding:10px;
 }
 
 h1
@@ -98,14 +128,14 @@ h1
 
 h2{ /*kaikkien muiden kuin etusivun otsikko*/
     font-size:46px;
-    color:rgb(20, 20, 20);
-    margin-top:50px;
-    padding-bottom:15px;
+    color:whitesmoke;
+    padding-top:50px;
+   
 }
 
 h3{ /*väliotsikot*/
     font-size:40px;
-    color:rgb(20, 20, 20);
+    color:whitesmoke;
     margin-top:50px;
 }
 
