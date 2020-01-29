@@ -59,7 +59,7 @@ td, th ["class=contactable"]
   text-align: left;
   padding: 8px;
 }
-.contactable tr:nth-child(even) {
+tr:nth-child(even) ["class=contactable"] {
   background-color: #dddddd;
 }
 
