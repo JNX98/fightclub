@@ -54,6 +54,7 @@ img
 
 body
 {
+    background-color:rgb(82, 82, 82);
     font-family: "Roboto", sans-serif;
 }
 
@@ -73,7 +74,7 @@ body
 }
 
 .container{ /* kaikkien muiden kuin etusivun sisältö*/
-    
+    min-height:390px;
     text-align:left;
     max-width:850px;
     color:rgb(255, 255, 255); /*vaihdetaan valkoiseksi kun tausta käytössä*/
@@ -84,13 +85,19 @@ body
 }
 
 .container2{ /* historia-sivun erikoisuus*/
-   
+    min-height:300px;
     text-align:right;
     max-width:850px;
     color:rgb(255, 255, 255);
+    padding-left:25px;
     padding-bottom:50px;
-    padding-top:150px;
     
+}
+
+figure{
+    display:block;
+    
+
 }
 
 .container img{
@@ -108,7 +115,7 @@ body
     background-color: whitesmoke;
     max-width: 300px;
     float:left;
-    margin-top:50px;
+    margin-top:0px;
     margin-right:25px;
     margin-bottom:25px;
     padding:10px;
@@ -137,6 +144,7 @@ h3{ /*väliotsikot*/
     font-size:40px;
     color:whitesmoke;
     margin-top:50px;
+    padding-bottom:10px;
 }
 
 .otsikko
