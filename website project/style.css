@@ -45,18 +45,7 @@ body
     font-size:16px;
 }
 
-.container{ /* kaikkien muiden kuin etusivun sisältö*/
-    text-align:left;
-    max-width:850px;
-    color:rgb(20, 20, 20);
-    
-}
-.container2{ /* historia-sivun erikoisuus*/
-    text-align:right;
-    max-width:850px;
-    color:rgb(20, 20, 20);
-    
-}
+
 
 .row
 {
@@ -73,29 +62,18 @@ body
     padding-left:20px;
     text-align:justify;
     color:white;
+    
 }
 
 h1
 {
     color: white;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 68px;
     text-align:justify;
     margin-top: 275px;
     padding-bottom:20px;
-}
-
-h2{ /*kaikkien muiden kuin etusivun otsikko*/
-    font-size:46px;
-    color:rgb(20, 20, 20);
-    margin-top:50px;
-    padding-bottom:15px;
-}
-
-h3{ /*väliotsikot*/
-    font-size:40px;
-    color:rgb(20, 20, 20);
-    margin-top:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .button
@@ -134,45 +112,16 @@ h3{ /*väliotsikot*/
 background-color: darkorange;
 transition: all 0.2s ease-in;
 }
-
-/* ALLAOLEVA LIITETTY main.css:stä, JOS TULEE ONGELMIA NIIN KANNATTAA VARMAAN MUOKATA */
-
-body, html {
-    height: 100%;
-  }
- 
-
-.bg {
-    /* The image used */
-    background-image: url("https://i.imgur.com/KJywZn6.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-.navbar{
-    font-size:14px;
+p
+{
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+}
+footer{
     font-family: Arial, Helvetica, sans-serif;
-    /* color: white; -- kun saadaan ensin tausta käyttöön*/
-    text-transform: uppercase;
-    letter-spacing:4px;
-    float:right;   
-}
-
-.navbar a:hover{
-    color: rgb(110, 110, 110) !important;
-}
-
-.navbar a:visited{
-    color: rgb(110, 110, 110) !important;
-}
-
-.navbar a:active{
-    color: rgb(110, 110, 110) !important;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(97, 81, 97);
 }
