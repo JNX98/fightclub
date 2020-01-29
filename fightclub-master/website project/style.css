@@ -7,13 +7,11 @@
 
 header
 {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://i.imgur.com/1tiWZal.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(business-2089534_1280.webp);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-
-
 .main-nav
 {
     float: right;
@@ -34,16 +32,7 @@ header
     font-size: 22px;
 }
 
-img
-{
-  position: relative;
-  max-width: 20%;
-  left: 0;
-  top: 0;
-  margin-left: auto;
-  margin-top: auto;
-  height: auto;
-}
+
 
 .main-nav li a:hover
 {
@@ -52,8 +41,11 @@ img
 
 body
 {
-    font-family: monospace;
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
 }
+
+
 
 .row
 {
@@ -63,28 +55,31 @@ body
 
 .hero
 {
-    position: center;
-	max-width: 100%;
-	margin-left: auto;
-	margin-top: 0 ;
-	text-align: justify;
+    position: absolute;
+    max-width: 830px;
+    margin-left: 80px;
+    margin-top: 0px;
+    padding-left:20px;
+    text-align:justify;
+    color:white;
+    
 }
 
 h1
 {
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
-	/**Lowered Font size from 70 to 50 to improve scaling.
-	29.01.2020 -Patrick**/
-    text-align: left;
-    margin-top: 250px;
+    font-size: 68px;
+    text-align:justify;
+    margin-top: 275px;
+    padding-bottom:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .button
 {
-    margin-top: 30px;
-    margin-left: 360;
+    margin-top: 100px;
+    margin-left: 480px;
 }
 
 .btn
@@ -94,7 +89,7 @@ h1
     color: white;
     text-decoration: none;
     margin-right: 5px;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .btn-one
@@ -117,14 +112,16 @@ h1
 background-color: darkorange;
 transition: all 0.2s ease-in;
 }
-
-.table-responsive {
- display: block;
- width: 100%;
- overflow-x: auto;
--webkit-overflow-scrolling: touch;
+p
+{
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
 }
-.table-hover .table-primary:hover {
-  background-color: #9fcdff;
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(97, 81, 97);
 }
-
